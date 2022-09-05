@@ -2,7 +2,6 @@
   margin: 0;
 }
 body {
- width: 1219px;
  font-family: Roboto, sans-serif;
 }
 h1 {
@@ -15,12 +14,20 @@ h2 {
   color: #076;
   padding: 48px 55px 0px 55px;
 }
+p {
+  padding: 20px 55px 20px 55px;
+  font-size: 32px;
+  text-align:justify;
+}
 header{
   position: fixed;
-  top: 0;
   background: #076;
-  width: 1219px;
   height: 84px;
+  width: 100%;
+}
+nav{
+  width:1219px;
+  margin: auto;
 }
 .logo {
   float: left;
@@ -46,16 +53,13 @@ ul li + li:before{
   text-decoration: none;
 }
 .section1{
+  width:1219px;
+  margin: auto;
   line-height:403px;
   height: 403px;
   background-image: url(img/image-1.png);
   width: 100%;
   text-align: center;
-}
-p {
-  padding: 20px 55px 20px 55px;
-  font-size: 32px;
-  text-align:justify;
 }
 .bold {
   font-weight: bold;
@@ -69,29 +73,47 @@ p {
 .italic {
   font-style:italic;
 }
+.section2 {
+  background:rgb(238,238,238);
+}
+.section2 p,h2{
+  width:1219px;
+  margin: auto;
+}
+
 .section3{
   height: 483px;
-  width: 1219px;
   background-image: url(img/image-2.png);
 }
 .section3 p{
+  width:1219px;
+  margin: auto;
+  padding: 155px 163px 222px 163px;
   text-align: center;
   font-size: 48px;
   font-style: italic;
   color: #fff;
 }
 .section4{
+  width:1219px;
+  margin: auto;
   height: 604px;
 }
 .section5{
+  background:rgb(238,238,238);
   height: 845px;
 }
 table {
-  margin: 55px 55px 20px 55px;
+  width:1219px;
+  margin: auto;
+  padding: 55px 55px 20px 55px;
   width: 100%;
 }
+td {
+  padding: 20px 20px 20px 20px;
+}
 table p {
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
   text-align: center;
   font-size: 18px;
   font-style:italic;
@@ -100,4 +122,18 @@ table h4 {
   text-align: center;
   font-size: 24px;
   color: #076;
+}
+footer{
+  background:#333;
+  height: 176px;
+}
+footer p{
+  padding: 71px 0 71px 0;
+  color: #fff;
+  font-size: 18px;
+  text-align:center;
+}
+.content {
+  width:1219px;
+  margin: auto;
 }
