@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,28 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
+
 <body>
+
+    <!-- Лучше вынести ссылку с лого из тега nav. Для удобочитаемости, лучше переносить вложенные теги на новую строку -->
+
+    <!-- <header>
+        <a href="#"><img class="logo" src="img/logo.png"></a>
+        <nav class="top-menu">
+            <ul class="menu">
+                <li>
+                    <a href="#the_problem">the problem</a>
+                </li>
+                <li>
+                    <a href="#PiedPiperCoin">PiedPiperCoin</a>
+                </li>
+                <li>
+                    <a href="#the team">the team</a>
+                </li>
+            </ul>
+        </nav>
+    </header> -->
+
     <header>
         <nav class="top-menu">
             <a href="#"><img class="logo" src="img/logo.png"></a>
@@ -18,70 +40,81 @@
             </ul>
         </nav>
     </header>
-    <div class="section1">
-        <h1>PiperNet Is Here
-        </h1>
-    </div>
-    <div class="section2">
-        <h2 id="the_problem">The Problem    
-        </h2>
-        <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</p>
-        <p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
-        <p>But fear not, for Pied Piper has the answer! And it’s simple:<br />
-            An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption.</p>
-        <p>Put even simpler — <span class="bold">it’s the internet, completely decentralized.</span></p>
-    </div>
-    <div class="section3">
-        <p>We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.</p>
-    </div>
-    <div class="section4">
-        <h2 id="PiedPiperCoin">Introducing PiedPiperCoin</h2>
-        <img class="ppc" src="img/PPC_Logo.png">
-        <p>Pied Piper's new internet is built for <span class="italic">users, by users.</span><br>You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
-        <p>Now there's a way to give credit where credit is due. Compute credit, that is!<br>The more you share your device resources, the more PiedPiperCoin you receive.</p>
-        <p>Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.</p>
-    </div>
-    <div class="section5">
-        <h2 id="the team">The Team</h2>
-        <table class="content">
-            <tr>
-                <td>
-                    <center><img src="img/image-3.png"></center>
-                    <h4>Richard Hendricks</h4>
-                    <p>Founder & CEO</p>
-                </td>
-                <td>
-                    <center><img src="img/image-4.png"></center>
-                    <h4>Dinesh Chugtai</h4>
-                    <p>Senior Programmer</p>
-                </td>
-                <td>
-                    <center><img src="img/image-5.png"></center>
-                    <h4>Bertram Gilfoyle</h4>
-                    <p>Chief Systems Architect</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <center><img src="img/image-6.png"></center>
-                    <h4>Jared Dunn</h4>
-                    <p>Chief Operating Officer</p>
-                </td>
-                <td>
-                    <center><img src="img/image-7.png"></center>
-                    <h4>Monica Hall</h4>
-                    <p>Chief Financial Officer</p>
-                </td>
-                <td>
-                    <center><img src="img/image-8.png"></center>
-                    <h4>Nelson Bighetti</h4>
-                    <p>Majority Investor</p>
-                </td>
-            </tr>
-        </table>
-    </div>
+
+    <!-- все секции нужно обернкть в тег main -->
+    <!-- Для того чтоб фиксированный хедер не "сжирал место", нужно предусмотреть для него "дырку" в виде паддинга, размер которого будет равет высоте хедера -->
+    <main>
+        <!-- тег div я бы поменял на section -->
+        <div class="section1">
+            <h1>PiperNet Is Here
+            </h1>
+        </div>
+        <!-- тег div я бы поменял на section -->
+        <div class="section2">
+            <h2 id="the_problem">The Problem
+            </h2>
+            <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</p>
+            <p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
+            <p>But fear not, for Pied Piper has the answer! And it’s simple:<br /> An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption.</p>
+            <p>Put even simpler — <span class="bold">it’s the internet, completely decentralized.</span></p>
+        </div>
+        <!-- тег div я бы поменял на section -->
+        <div class="section3">
+            <p>We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.</p>
+        </div>
+        <!-- тег div я бы поменял на section -->
+        <div class="section4">
+            <h2 id="PiedPiperCoin">Introducing PiedPiperCoin</h2>
+            <img class="ppc" src="img/PPC_Logo.png">
+            <p>Pied Piper's new internet is built for <span class="italic">users, by users.</span><br>You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
+            <p>Now there's a way to give credit where credit is due. Compute credit, that is!<br>The more you share your device resources, the more PiedPiperCoin you receive.</p>
+            <p>Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.</p>
+        </div>
+        <!-- тег div я бы поменял на section -->
+        <div class="section5">
+            <h2 id="the team">The Team</h2>
+            <table class="content">
+                <tr>
+                    <td>
+                        <!-- тег center является depricated - нужно выравнивать средствами CSS -->
+                        <center><img src="img/image-3.png"></center>
+                        <h4>Richard Hendricks</h4>
+                        <p>Founder & CEO</p>
+                    </td>
+                    <td>
+                        <center><img src="img/image-4.png"></center>
+                        <h4>Dinesh Chugtai</h4>
+                        <p>Senior Programmer</p>
+                    </td>
+                    <td>
+                        <center><img src="img/image-5.png"></center>
+                        <h4>Bertram Gilfoyle</h4>
+                        <p>Chief Systems Architect</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><img src="img/image-6.png"></center>
+                        <h4>Jared Dunn</h4>
+                        <p>Chief Operating Officer</p>
+                    </td>
+                    <td>
+                        <center><img src="img/image-7.png"></center>
+                        <h4>Monica Hall</h4>
+                        <p>Chief Financial Officer</p>
+                    </td>
+                    <td>
+                        <center><img src="img/image-8.png"></center>
+                        <h4>Nelson Bighetti</h4>
+                        <p>Majority Investor</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
     <footer>
-        <p class="content">All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.</p>
+        <p>All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.</p>
     </footer>
 </body>
+
 </html>

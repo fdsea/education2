@@ -1,139 +1,179 @@
 * {
-  margin: 0;
-}
-body {
- font-family: Roboto, sans-serif;
-}
-h1 {
-  font-size: 72px;
-  color: #fff;
-}
-h2 {
-  text-align: center;
-  font-size: 64px;
-  color: #076;
-  padding: 48px 55px 0px 55px;
-}
-p {
-  padding: 20px 55px 20px 55px;
-  font-size: 32px;
-  text-align:justify;
-}
-header{
-  position: fixed;
-  background: #076;
-  height: 84px;
-  width: 100%;
-}
-nav{
-  width:1219px;
-  margin: auto;
-}
-.logo {
-  float: left;
-  padding-left: 55px;
-  padding-top: 20px;
-}
-.menu{
-  float: right;
-  padding-right: 55px;
-  padding-top: 28px;
-}
-ul li {
-  display: inline; 
-  font-size: 24px;
-  color:#fff;
-}
-ul li + li:before{
-  content:"|";
-  padding: 0px 5px 0px 5px;
-}
-.menu a{
-  color: #fff;
-  text-decoration: none;
-}
-.section1{
-  width:1219px;
-  margin: auto;
-  line-height:403px;
-  height: 403px;
-  background-image: url(img/image-1.png);
-  width: 100%;
-  text-align: center;
-}
-.bold {
-  font-weight: bold;
-}
-.ppc{
-  float: left;
-  padding-right: 55px;
-  padding-left: 55px;
-  padding-top: 20px;
-}
-.italic {
-  font-style:italic;
-}
-.section2 {
-  background:rgb(238,238,238);
-}
-.section2 p,h2{
-  width:1219px;
-  margin: auto;
+    margin: 0;
 }
 
-.section3{
-  height: 483px;
-  background-image: url(img/image-2.png);
+body {
+    font-family: Roboto, sans-serif;
 }
-.section3 p{
-  width:1219px;
-  margin: auto;
-  padding: 155px 163px 222px 163px;
-  text-align: center;
-  font-size: 48px;
-  font-style: italic;
-  color: #fff;
+
+h1 {
+    font-size: 72px;
+    color: #fff;
 }
-.section4{
-  width:1219px;
-  margin: auto;
-  height: 604px;
+
+h2 {
+    text-align: center;
+    font-size: 64px;
+    color: #076;
+    padding: 20px 55px 20px 55px;
 }
-.section5{
-  background:rgb(238,238,238);
-  height: 845px;
+
+p {
+    padding: 20px 55px 20px 55px;
+    font-size: 32px;
+    text-align: justify;
 }
-table {
-  width:1219px;
-  margin: auto;
-  padding: 55px 55px 20px 55px;
-  width: 100%;
+
+header {
+    position: fixed;
+    background: #076;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
 }
-td {
-  padding: 20px 20px 20px 20px;
+
+nav {
+    max-width: 1219px;
+    margin: auto;
+    padding-top: 5px;
 }
-table p {
-  padding: 5px 0 5px 0;
-  text-align: center;
-  font-size: 18px;
-  font-style:italic;
+
+.logo {
+    float: left;
+    padding-left: 55px;
 }
-table h4 {
-  text-align: center;
-  font-size: 24px;
-  color: #076;
+
+.menu {
+    float: right;
+    padding-right: 55px;
 }
-footer{
-  background:#333;
-  height: 176px;
+
+ul li {
+    display: inline;
+    font-size: 24px;
+    color: #fff;
 }
-footer p{
-  padding: 71px 0 71px 0;
-  color: #fff;
-  font-size: 18px;
-  text-align:center;
+
+ul li+li:before {
+    content: "|";
+    padding: 0px 5px 0px 5px;
 }
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section1 {
+    background-image: url(img/image-1.png);
+}
+
+.section1 h1 {
+    max-width: 1219px;
+    margin: auto;
+    line-height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ppc {
+    float: left;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.section2 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background: rgb(238, 238, 238);
+}
+
+.section2 p,
+h2 {
+    max-width: 1219px;
+    margin: auto;
+}
+
+.section3 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-image: url(img/image-2.png);
+}
+
+.section3 p {
+    max-width: 1219px;
+    margin: auto;
+    text-align: center;
+    font-size: 48px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.section4 {
+    max-width: 1219px;
+    margin: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.section5 {
+    background: rgb(238, 238, 238);
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
 .content {
-  width:1219px;
-  margin: auto;
+    max-width: 1219px;
+    margin: auto;
+}
+
+table {
+    max-width: 1219px;
+    margin: auto;
+    padding: 20px 55px 20px 55px;
+    width: 100%;
+}
+
+td {
+    padding: 20px 20px 20px 20px;
+}
+
+table p {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+table h4 {
+    text-align: center;
+    font-size: 24px;
+    color: #076;
+}
+
+footer {
+    background: #333;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+footer p {
+    margin: auto;
+    max-width: 540px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
 }
